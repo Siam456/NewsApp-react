@@ -1,0 +1,50 @@
+.app{
+    text-align: center;
+}
+.maindivM{
+    margin-top: 6%;
+}
+.maindiv{
+    display: flex;
+}
+.subdivm{
+    width: 33%;
+}
+.subdiv{
+    width: 33%;
+    margin-left: 2%;
+}
+.newsimg{
+    border-Radius: 10px;
+    
+}
+.blogtop{
+    margin-top: 6%;
+}
+.abouttop{
+    margin-top: 12%;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .maindiv{
+        display: inline;
+    }
+    .subdiv{
+        width: 100%;
+    }
+    .subdivm{
+        width: 100%;
+    }
+    .maindivM{
+        margin-top: 15%;
+    }
+    .blogtop{
+        margin-top: 19%;
+    }
+    .abouttop{
+        margin-top: 25%;
+    }
+    
+    
+  }
